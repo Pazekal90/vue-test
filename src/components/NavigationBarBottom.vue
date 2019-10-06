@@ -3,7 +3,6 @@
             grow
             shift
             fixed
-            :value="activeBtn"
             min-height="60px"
     >
         <v-btn v-for="(item, index) in items" :to="item.href" :key="index">
