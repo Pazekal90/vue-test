@@ -4,3 +4,8 @@ node_js:
 cache:
   directories:
     - "node_modules"
+deploy:
+  provider: script
+  script: node deploy.js
+  on:
+    branch: master
