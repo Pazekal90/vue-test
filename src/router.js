@@ -6,10 +6,9 @@ import Auth from "@okta/okta-vue";
 Vue.use(Auth, {
     issuer: 'https://dev-747778.okta.com/oauth2/default',
     client_id: '0oa1jstwarVoHLbdW357',
-    redirect_uri: 'http://localhost:8080/implicit/callback',
+    redirect_uri: process.env.VUE_APP_ROOT + '/implicit/callback',
     scope: 'openid profile email'
 })
-
 Vue.use(router);
 
 let Router = new router({
