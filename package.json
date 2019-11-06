@@ -20,7 +20,7 @@
     "@okta/okta-vue": "1.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.0.0",
-    "eslint-plugin-vue": "^5.2.3",
+    "eslint-plugin-vue": "^6.0.0",
     "sass": "^1.17.4",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-vuetify": "^1.0.0",
